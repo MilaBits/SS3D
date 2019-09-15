@@ -1126,6 +1126,7 @@ GameObject:
   - component: {fileID: 6850072202715529761}
   - component: {fileID: 6850072202715529760}
   - component: {fileID: 6850072202715529765}
+  - component: {fileID: 6744402051618095163}
   m_Layer: 0
   m_Name: HumanModelSevered
   m_TagString: Untagged
@@ -1193,8 +1194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serverOnly: 0
   localPlayerAuthority: 1
-  m_AssetId: 
-  m_SceneId: 4024820478
+  m_AssetId: 7b853e348029ee24c97582362ada4907
+  m_SceneId: 0
 --- !u!114 &6850072202715529766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,6 +1284,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   syncInterval: 0.1
+  possibleNames:
+  - Kaylynn
+  - Philippa
+  - Randall
+  - Simone
+  - Jean
+  - Mattie
+  - Sibyl
+  - Maud
+  - Barret
+  - Johnnie
   data: 0
   text: {fileID: 0}
 --- !u!114 &6850072202715529765
@@ -1295,6 +1307,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbcf283d261054d41a00d301c9c97de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncInterval: 0.1
+--- !u!114 &6744402051618095163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184525931660991265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0556901c8047ec9c6e4283a9f1f7c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncInterval: 0.1
